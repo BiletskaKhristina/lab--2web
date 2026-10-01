@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f4f7f6;
+    line-height: 1.6;
+}
+
+#main-header {
+    background-color: #1e3d59;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 1.1rem;
+    color: #b5c7d3;
+    margin-bottom: 15px;
+}
+
+header nav,
+footer {
+    background-color: #172b3a;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ff6e40;
+}
+
+section,
+aside {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1e3d59;
+    margin-bottom: 15px;
+}
+
+.monitoring-card {
+    background-color: #e8f1f5;
+    border-left: 5px solid #1e3d59;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.cards-container {
+    text-align: center;
+}
+
+.work-card {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 6px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.warning-box {
+    position: relative;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+
+.status-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    background-color: #1e3d59;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #ff6e40;
+}
+
+.meas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.meas-table th,
+.meas-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.meas-table th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+p {
+    color: #333333;
+}
+
+.work-card p {
+    color: #555555;
+}
